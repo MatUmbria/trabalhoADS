@@ -1,1 +1,109 @@
 
+/* Define o estilo básico para todos os elementos na página */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    background-color: #333; /* Define uma cor de fundo padrão */
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex; /* Utiliza flexbox para layout flexível */
+    justify-content: space-around; /* Alinha os itens horizontalmente com espaço ao redor */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+/* Estilo do rodapé */
+footer {
+    border-top: 1px solid #ff0000; /* Adiciona uma borda superior vermelha */
+    padding: 5px; /* Adiciona preenchimento interno */
+    display: flex; /* Utiliza flexbox para layout flexível */
+    justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+    color: white; /* Define a cor do texto como branco */
+}
+
+/* Estilo do logotipo */
+#logo {
+    width: 300px; /* Define a largura do logotipo */
+    border: 2px solid #6e6e6e; /* Adiciona uma borda cinza */
+    border-radius: 1rem; /* Adiciona bordas arredondadas */
+}
+
+/* Estilo dos botões */
+button {
+    border: 1px solid #ff0000; /* Adiciona uma borda vermelha */
+    border-radius: .25rem; /* Adiciona bordas arredondadas */
+    border-color: #ff0000; /* Define a cor da borda */
+    font-weight: 700; /* Define a espessura da fonte */
+    padding: .5rem 1rem; /* Adiciona preenchimento interno */
+    height: 3rem; /* Define a altura */
+}
+
+/* Estilo dos links */
+.link {
+    color: #ff0000; /* Define a cor do link como vermelho */
+}
+
+/* Estilo do conteúdo */
+.content {
+    display: flex; /* Utiliza flexbox para layout flexível */
+    justify-content: space-around; /* Alinha os itens horizontalmente com espaço ao redor */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 5rem; /* Adiciona preenchimento interno */
+}
+
+/* Estilo da foto */
+#foto {
+    width: 200px; /* Define a largura da foto */
+    border: 2px solid #6e6e6e; /* Adiciona uma borda cinza */
+    border-radius: 10rem; /* Transforma a borda em um círculo */
+}
+
+/* Estilo do texto */
+.text {
+    margin: 3rem; /* Define margens externas */
+    padding: 3rem; /* Define preenchimento interno */
+    color: white; /* Define a cor do texto como branco */
+    border: 1px solid white; /* Adiciona uma borda branca */
+    border-radius: 2rem; /* Adiciona bordas arredondadas */
+}
+
+/* Estilo do contêiner */
+.container {
+    display: grid; /* Utiliza grid para layout flexível */
+    justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+    background-color: #fff; /* Define uma cor de fundo branca */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+/* Estilo do formulário */
+form {
+    background-color: inherit; /* Herda a cor de fundo do contêiner */
+}
+
+/* Estilo dos campos do formulário */
+form div {
+    margin-bottom: 15px; /* Adiciona espaçamento entre os campos */
+}
+
+/* Estilo dos rótulos do formulário */
+label {
+    display: block; /* Exibe os rótulos como blocos */
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo dos rótulos */
+    background-color: #fff; /* Define uma cor de fundo branca */
+}
+
+/* Estilo dos campos de entrada de texto e área de texto do formulário */
+input[type="text"],
+textarea {
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+    background-color: #fff; /* Define uma cor de fundo branca */
+}
+
+/* Estilo dos botões do formulário */
+.formbtn {
+    background-color: #ff0000; /* Define uma cor de fundo vermelha */
+}
